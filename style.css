@@ -1,0 +1,400 @@
+div.section-subtitle{
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.166667em;
+}
+
+h1{
+         
+
+    font-family: 'Teko', sans-serif;
+    color:red;
+}
+
+h3{
+  font-family: 'Teko', sans-serif;
+}
+
+h4{
+
+  font-family: 'Teko', sans-serif;
+}
+
+h5{
+  color:orange;
+  font-size: xx-large;
+  font-family:fantasy
+}
+
+p{
+  font-family: 'Lato';
+}
+
+.nav-pills a{
+  color: red;
+  display:flex;
+  margin-left: auto;
+}
+
+.navbar ul li a:hover{
+ background-color:red;
+ 
+  
+}
+
+
+.carzlogo{
+  width: 100px;
+}
+
+
+
+
+
+
+.cartxt{
+
+  color:yellow;
+  font-size: large;
+
+}
+
+.abttxt{
+  
+  font-size: larger;
+}
+
+q{
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  
+  font-size: 1.5fem;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1em;
+  
+  width: 10em;
+  transition: all 0.5s;
+  cursor: pointer;
+ 
+
+   padding:1em;
+ display: block;
+ margin:auto;
+
+}
+
+.button:hover{
+  color:red
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.testimonial .owl-nav .owl-next span{
+  padding:0.3em;
+  padding-right: 1em;
+   margin-bottom: 1em;
+   width:100%;
+}
+
+.testimonial .owl-nav .owl-next span:hover{
+ background-color: red;
+ color: white;
+}
+
+.testimonial .owl-nav .owl-prev span{
+  padding:0.3em;
+  padding-right: 1em;   
+  margin-bottom: 1em;
+}
+
+.testimonial .owl-nav .owl-prev span:hover{
+  background-color: red;
+  color: white;
+}
+
+
+
+
+footer{
+  padding:5em;
+  text-align: center;
+background-color: #F8F9FA;
+  margin-top:2em;
+  
+}
+
+.footertxt{
+  font-size: small;
+  color: red;
+}
+
+.abtimgcontainer{
+  position: relative;
+  
+  
+}
+
+/* @media(max-width:600px)
+{
+  .abtimgcontainer{
+   width:50%;
+  }
+} */
+
+
+.imgseconddiv{
+  position:absolute;
+  top:0;
+  width: 2em;
+  height: 30%;
+  background-color: red;
+}
+
+.anotherabtimgcontainer{
+
+  position:absolute;
+  
+  width:2em;
+  height: 30%;
+ right:0;
+  bottom: 0;
+  background-color:red;
+
+}
+
+.img-carosel{
+  border-radius: 90%;
+}
+
+
+.caroselimg{
+
+  border: 1px solid black;
+}
+
+.section-footer a{
+
+  font-weight: 300;
+}
+
+
+
+section-footer {
+  width: 100%;
+  display: inline-block;
+  background: #ccc;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px ;
+  padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+
+  }
+  /* .carzlogo{
+   
+    width:25%;
+
+display:flex;
+    
+  }
+
+  .navbar-toggler{
+  
+  margin-left: 14em;
+  
+    width:25%;
+display:flex;
+  } */
+
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}
+
+
+.sevices1 {
+    text-align: center;
+    border: 1px solid #dedede;
+    padding: 30px;
+    margin-bottom: 30px;
+    
+}
+.sevices1 p{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.sevices1 i {
+    color: #f00;
+    font-size: 32px;
+}
+.sevices1:hover{
+  
+  box-shadow: 2px 1px 13px 1px rgba(204,204,204,1);
+-webkit-box-shadow: 2px 1px 13px 1px rgba(204,204,204,1);
+-moz-box-shadow: 2px 1px 13px 1px rgba(204,204,204,1);
+
+}
+.sevices1:hover h2{
+  color: #ff0000;
+}
+
+.nextbtn{
+  border: 4px solid black;
+  padding:1.5em;
+  padding-right:3em;
+ 
+}
+
+.nextbtn:hover{
+  color:white;
+  background-color: red;
+  visibility: hidden;
+
+
+}
+
+/* .carousel-caption{
+  background:rgba(0, 0, 0, 0.5)
+} */
+
+
+.section-banner .carousel-inner img
+{
+  width: 100%;
+height:95vh;
+opacity: 0.5;
+}
+
+.carousel-inner{
+  background-color: black;
+}
+
+
+
+@media (min-height:750px){
+  
+.section-banner .carousel-inner img
+{
+  width: 100%;
+  height:30vh;
+}
+
+
+
+}
